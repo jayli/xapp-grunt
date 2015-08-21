@@ -11,7 +11,7 @@ module.exports = function (packageConfig) {
 			options: {
 				proxyport: '<%= packageConfig.proxyPort %>',               	// 本地反向代理端口
 				target: './',                                     // flex-combo 要代理的目录
-				urls: '/<%= packageConfig.assetsPath %>',    // flex-combo 要代理的匹配 url
+				urls: '/',    // flex-combo 要代理的匹配 url
 				port: '<%= packageConfig.port %>',                         // 本地服务端口
 				proxyHosts: [                                       // 本地反向代理需要代理的主机名
 					'demo',
