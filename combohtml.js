@@ -18,7 +18,8 @@ module.exports = function (packageConfig) {
 			comboCSS: false, // 是否静态合并当前页面引用的css为一个文件
 			convert2vm: false,// 是否将juicer语法块转换为vm格式
 			convert2php: false, // 是否将juicer语法块转换为php格式
-			comboExt: '_combined' // 静态合并后的js和css后缀
+			comboExt: '_combined', // 静态合并后的js和css后缀
+			combineExt:'' // 脚本转换后不再添加-min后缀
 			//htmlProxyDestDir: 'html-fragments'      // html 代理区块页面生成到的目标目录
 		},
 		main: {
