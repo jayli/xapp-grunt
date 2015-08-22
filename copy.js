@@ -6,7 +6,7 @@ module.exports = {
 		files: [
 			{
 				cwd: 'src',
-				src: ['widgets/kissymini/build/mini-min.js', 'config.js'],
+				src: ['widgets/kissymini/build/mini-min.js', 'config.js','widgets/**/*.css'],
 				dest: 'build',
 				expand: true
 			}
