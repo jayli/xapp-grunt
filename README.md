@@ -1,5 +1,5 @@
 # xapp-grunt
 
-xapp 用到的grunt命令
+mask 用到的grunt命令
 
 	bower install xapp-grunt
